@@ -1,0 +1,54 @@
+:root {
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: antiquewhite; */
+}
+
+.section {
+    padding: 20px 0;
+    border-bottom: 4px solid #999;
+}
+
+.caps {
+    text-transform: capitalize;
+}
+
+
+
+.card-title {
+    text-transform: capitalize;
+}
+
+.bottom-nav {
+
+}
+
+
+
+
+
+
+.colophon {
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+
+.copyright {
+    font-weight: 700;
+}
+
+#crowIcon {
+    margin: 10px;
+    max-width: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}

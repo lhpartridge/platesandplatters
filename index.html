@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>
+        Plates and Platters</title>
+</head>
+<body>
+        <header class="header" id="header">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg top-nav" id="topNav">
+                    <h1 class="heading text-center text-md-start">
+                        <a href="#" class="navbar-brand">plates and platters</a>
+                    </h1>
+                    <!-- button to collapse to hamburger menu -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 store-list">
+                            <li class="nav-item store-item text-capitalize">
+                                <a href="#featured" class="nav-link">featured</a>
+                            </li>
+                            <li class="nav-item store-item text-capitalize">
+                                <a href="#new" class="nav-link">new</a>
+                            </li>
+                            <li class="nav-item store-item text-capitalize">
+                                <a href="#favorites" class="nav-link">favorites</a>
+                            </li>
+                            <li class="store-item">
+                                <button class="btn text-capitalize" id="themeBtn">change theme</button>
+                            </li>
+                        </ul>
+                        <form action="#" class="form d-flex" role="search">
+                            <div class="form-floating"> 
+                                <input type="search" class="form-control me-2" aria-label="Search" id="search">
+                                <label for="search">search</label>
+                            </div>
+                        </form>
+                    </div>                  
+                </nav>
+            </div>
+        </header>
+        <main class="main" id="main">
+            <section id="bannerSection">
+                <div class="container">
+                    <img src="https://via.placeholder.com/650x450" alt="placeholder img" class="img-fluid image banner-img w-100 d-block mx-auto" />
+                    
+                </div>
+            </section>
+            <section class="section card-section" id="section1">
+                <div class="container">
+                    <h2 class="subheading" id="featured">featured dishes</h2>
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">pasta jambalaya</h3>
+                                    <p class="card-text category">entree</p>
+                                    <p class="card-text description"><span class="caps">a</span> creamy melange of fettucine and grilled chicken in a rich <span class="caps">cajun</span> sauce.</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text price">$22</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">pork satay</h3>
+                                    <p class="card-text">appetizers</p>
+                                    <p class="card-text">skewers of marinated pork strips served with a spicy peanut sauce</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">$12</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">caprese salad</h3>
+                                    <p class="card-text">salads</p>
+                                    <p class="card-text">a delightful summer salad featuring fresh mozzerella and cherry tomatoes with basil and olive oil.</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">$10</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col d-md-none d-lg-block">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">dish name</h3>
+                                    <p class="card-text">category</p>
+                                    <p class="card-text">main ingredient</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">price</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="section2">
+                <div class="container">
+                    <h2 class="subheading" id="new">new dishes</h2>
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">butternut squash soup</h3>
+                                    <p class="card-text">soups</p>
+                                    <p class="card-text"><span class="caps">celebrate</span> fall with our seasonal favorite creamy butternut squash soup <span class="caps">cajun</span> sauce.</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">$11</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">braised short ribs</h3>
+                                    <p class="card-text">entree</p>
+                                    <p class="card-text">short ribs of beef slow cooked in a rich gravy</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">$43</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">tarte tatin</h3>
+                                    <p class="card-text">desserts</p>
+                                    <p class="card-text">classic autumn favorite--our tarte tatin is finished with apple brandy for a note of elegance</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">$14</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col d-md-none d-lg-block">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">chicken fricassee</h3>
+                                    <p class="card-text">entrees</p>
+                                    <p class="card-text">chicken and vegetables simmered in white wine, finished with a roquefort sauce.</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">$32</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col d-none d-lg-block">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">pasta jambalaya</h3>
+                                    <p class="card-text">entree</p>
+                                    <p class="card-text"><span class="caps">a</span> creamy melange of fettucine and grilled chicken in a rich <span class="caps">cajun</span> sauce.</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">$22</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col d-none d-lg-block">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">dish name</h3>
+                                    <p class="card-text">category</p>
+                                    <p class="card-text">main ingredient</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">price</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col d-none d-lg-block">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">dish name</h3>
+                                    <p class="card-text category">category</p>
+                                    <p class="card-text description">main ingredient</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text price">price</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col d-none d-lg-block">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">dish name</h3>
+                                    <p class="card-text category">category</p>
+                                    <p class="card-text description">main ingredient</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text price">price</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="section3">
+                <div class="container">
+                    <h2 class="subheading" id="favorites">favorites</h2>
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">pasta jambalaya</h3>
+                                    <p class="card-text">entree</p>
+                                    <p class="card-text"><span class="caps">a</span> creamy melange of fettucine and grilled chicken in a rich <span class="caps">cajun</span> sauce.</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">$22</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">dish name</h3>
+                                    <p class="card-text">category</p>
+                                    <p class="card-text">main ingredient</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">price</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">dish name</h3>
+                                    <p class="card-text">category</p>
+                                    <p class="card-text">main ingredient</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text">price</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col d-md-none d-lg-block">
+                            <div class="card h-100">
+                                <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid card-img card-img-top"/>
+                                <div class="card-body">
+                                    <h3 class="card-title">dish name</h3>
+                                    <p class="card-text category">category</p>
+                                    <p class="card-text description">main ingredient</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text price">price</p>
+                                    <button type="button" class="btn btn-success cart-btn">add to cart</button>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer pt-4 pb-4" id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <form action="#" class="form ">
+                            <h2 class="subheading">subscribe to our newsletter</h2>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">name</label>
+                                <input type="text" class="form-control" id="name" value="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">email</label>
+                                <input type="email" class="form-control" id="email" value="">
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary" id="confirmBtn">submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="address-list list-group">
+                            <li class="address-item list-item list-group-item">123 sesame street</li>
+                            <li class="address-item list-item list-group-item">clinton, ms 39056</li>
+                            <li class="address-item list-item list-group-item">601-555-1212</li>
+                            <li class="address-item list-item list-group-item">platesandplatters@gmail.com</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <nav class="nav bottom-nav justify-content-center" id="bottomNav">
+                            <a href="#" class="nav-link social-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                              </svg><span class="visually-hidden">facebook</span></a>
+                            
+                            <a href="#" class="nav-link social-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                              </svg><span class="visually-hidden">linkedin</span></a>
+                            <a href="#" class="nav-link social-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                              </svg><span class="visually-hidden">twitter</span></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="text colophon" id="colophon">site by apologicode<img src="../media/crow_icon.PNG" alt="crow icon" id="crowIcon"><span class="copyright">&copy; </span>2023</p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+    </body> 
+</html>
+
